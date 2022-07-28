@@ -36,7 +36,7 @@ function validateNum(){
             (numberPrefix =='0816')
         ){
           para.style.display= "block";
-          image.src ="/mtn.png";
+          image.src ="./mtn.png";
           error.style.display ="none";
          
         }else if((numberPrefix=='0805')||
@@ -48,7 +48,7 @@ function validateNum(){
             (numberPrefix =='0905') 
         ){
             para.style.display= "block";
-            image.src ="/glo.png";
+            image.src ="./glo.png";
             error.style.display ="none";
         }else if( (numberPrefix =='0809')||
             (numberPrefix =='0909') || 
@@ -56,7 +56,7 @@ function validateNum(){
             (numberPrefix =='0818') 
         ){
             para.style.display= "block";
-            image.src ="/9mobile-official-logo.png";
+            image.src ="./9mobile-official-logo.png";
             error.style.display ="none";
         }else if( (numberPrefix =='0802') ||
             (numberPrefix =='0902') || 
@@ -66,7 +66,7 @@ function validateNum(){
             (numberPrefix =='0812') 
         ){
           para.style.display= "block";
-          image.src ="/airtel.png";
+          image.src ="./airtel.png";
           error.style.display ="none";
     }
     }
@@ -103,7 +103,7 @@ function validateNum(){
             (numberPrefix =='816')
         ){
           para.style.display= "block";
-          image.src ="/mtn.png";
+          image.src ="./mtn.png";
           error.style.display ="none";
          
         }else if((numberPrefix=='805')||
@@ -115,7 +115,7 @@ function validateNum(){
             (numberPrefix =='905') 
         ){
             para.style.display= "block";
-            image.src ="/glo.png";
+            image.src ="./glo.png";
             error.style.display ="none";
         }else if( (numberPrefix =='809')||
             (numberPrefix =='909') || 
@@ -123,7 +123,7 @@ function validateNum(){
             (numberPrefix =='818') 
         ){
             para.style.display= "block";
-            image.src ="/9mobile-official-logo.png";
+            image.src ="./9mobile-official-logo.png";
             error.style.display ="none";
         }else if( (numberPrefix =='802') ||
             (numberPrefix =='902') || 
@@ -133,7 +133,7 @@ function validateNum(){
             (numberPrefix =='812') 
         ){
           para.style.display= "block";
-          image.src ="/airtel.png";
+          image.src ="./airtel.png";
           error.style.display ="none";
     }
       }  
@@ -153,7 +153,7 @@ function validateNum(){
             (numberPrefix =='816')
         ){
           para.style.display= "block";
-          image.src ="/mtn.png";
+          image.src ="./mtn.png";
           error.style.display ="none";
           
         }else if((numberPrefix=='805')||
@@ -165,7 +165,7 @@ function validateNum(){
             (numberPrefix =='905') 
         ){
             para.style.display= "block";
-            image.src ="/glo.png";
+            image.src ="./glo.png";
             error.style.display ="none";
         }else if( (numberPrefix =='809')||
             (numberPrefix =='909') || 
@@ -173,7 +173,7 @@ function validateNum(){
             (numberPrefix =='818') 
         ){
             para.style.display= "block";
-            image.src ="/9mobile-official-logo.png";
+            image.src ="./9mobile-official-logo.png";
             error.style.display ="none";
         }else if( (numberPrefix =='802') ||
             (numberPrefix =='902') || 
@@ -183,7 +183,7 @@ function validateNum(){
             (numberPrefix =='812') 
         ){
           para.style.display= "block";
-          image.src ="/airtel.png";
+          image.src ="./airtel.png";
           error.style.display ="none";
     }
       } 
