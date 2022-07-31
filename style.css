@@ -10,9 +10,7 @@
   --button-primary-colour: #f2f2f2 ;
   --primary-bg:#4caf50;
 }
-body{
-  background-color: #a7f1a7;
-}
+
 img{
   max-width: 100%;
   height: auto;
@@ -53,7 +51,7 @@ img{
   font-weight: 800;
 }
 .link-withbg{
-  background-color: #016301;
+  background-color: var(--primary-bg);
   border-radius: 20px;
   padding: 0.8em 1.5em;
   color: #fff;
@@ -97,7 +95,7 @@ input{
 .input input{
   padding: 0.5em 0;
   border: none;
-  width: 60%;
+  width: 80%;
   margin-top: 0.3em;
   margin-left: 1em;
   outline: none;
@@ -112,7 +110,7 @@ input{
 }
 fieldset{
   padding: 2em 1em;
-  border: 4px solid #016301;
+  border: 4px solid var(--primary-bg);
   border-radius: 5px;
 }
 legend{
@@ -133,7 +131,7 @@ input::placeholder{
   margin-top: 0.5em;
   font-size: 0.8rem; 
   margin-left: 1em;
-  color: #016301;
+  color: var(--primary-bg);
   display: none;
 }
 
@@ -148,7 +146,8 @@ input::placeholder{
 #error{
   margin-top: 0.5em;
   font-size: 0.8rem; 
-  color: #016301;
+  color: var(--primary-bg);
+  margin-left: 1em;
 }
 @media(max-width:700px) {
   nav{
@@ -212,6 +211,16 @@ input::placeholder{
   #identifier{
     margin-left: 0;
   }
+  #error{
+   margin-left: 0;
+  }
+}
+
+.footer{
+  text-align: center;
+  color: var(--primary-bg);
+  font-size: 0.8rem;
+  margin-top: 1em;
 }
 
 

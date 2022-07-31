@@ -79,13 +79,15 @@ function validateNum(){
     fourteenNum();
   
 }else if(telephoneNumber.value.length ===0){
-  error.textContent ="Please input a telephone number";
+  error.textContent ="Please input a Nigerian telephone number";
   error.style.display ="block";
+  error.style.color = "red";
   para.style.display= "none";
 }
 }else{
   error.textContent ="Please input a telephone number";
   error.style.display ="block";
+  error.style.color = "red";
   para.style.display= "none";
 }
                  }
@@ -188,7 +190,15 @@ function validateNum(){
     }
       } 
 
-telephoneNumber.addEventListener("change",validateNum);
+telephoneNumber.addEventListener("input",validateNum);
+
+//function to submit form if input is validated true
+
+const form = document.querySelector("#form");
 
 
-
+  form.addEventListener("submit",(e)=>{
+   if(regex.test(telephoneNumber.value)=== false){
+    e.preventDefault();
+   }
+  })
